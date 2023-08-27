@@ -30,7 +30,7 @@ def filter_data_by_director(director):
 
 
 data_load_state = st.text('Loading cicle nyc data...')
-data = load_data(1000)
+data = load_data(500)
 data_load_state.text("Done! (using st.cache)")
 
 if st.sidebar.checkbox('Mostrar todos los filmes'):
